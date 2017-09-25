@@ -1,0 +1,9 @@
+.page--transition-enter-active, .page--transition-leave-active {
+	transition: opacity 1s, transform 1s;
+	transition-delay: 0.25s;
+}
+
+.page--transition-enter, .page--transition-leave-active {
+	opacity: 0;
+	transform: translateY(-25px);
+}
