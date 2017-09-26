@@ -213,19 +213,18 @@ const getters = {
 /* 12 */
 /***/ (function(module, exports, __webpack_require__) {
 
-function injectStyle (ssrContext) {
-  __webpack_require__(39)
-}
+
+/* styles */
+__webpack_require__(39)
+
 var Component = __webpack_require__(1)(
   /* script */
   __webpack_require__(30),
   /* template */
   __webpack_require__(50),
-  /* styles */
-  injectStyle,
   /* scopeId */
   "data-v-172eaae2",
-  /* moduleIdentifier (server only) */
+  /* cssModules */
   null
 )
 
@@ -412,11 +411,9 @@ var Component = __webpack_require__(1)(
   __webpack_require__(31),
   /* template */
   __webpack_require__(52),
-  /* styles */
-  null,
   /* scopeId */
   null,
-  /* moduleIdentifier (server only) */
+  /* cssModules */
   null
 )
 
@@ -432,11 +429,9 @@ var Component = __webpack_require__(1)(
   __webpack_require__(32),
   /* template */
   __webpack_require__(54),
-  /* styles */
-  null,
   /* scopeId */
   null,
-  /* moduleIdentifier (server only) */
+  /* cssModules */
   null
 )
 
@@ -452,11 +447,9 @@ var Component = __webpack_require__(1)(
   __webpack_require__(33),
   /* template */
   __webpack_require__(48),
-  /* styles */
-  null,
   /* scopeId */
   null,
-  /* moduleIdentifier (server only) */
+  /* cssModules */
   null
 )
 
@@ -472,11 +465,9 @@ var Component = __webpack_require__(1)(
   __webpack_require__(34),
   /* template */
   __webpack_require__(49),
-  /* styles */
-  null,
   /* scopeId */
   null,
-  /* moduleIdentifier (server only) */
+  /* cssModules */
   null
 )
 
@@ -492,11 +483,9 @@ var Component = __webpack_require__(1)(
   __webpack_require__(35),
   /* template */
   __webpack_require__(51),
-  /* styles */
-  null,
   /* scopeId */
   null,
-  /* moduleIdentifier (server only) */
+  /* cssModules */
   null
 )
 
@@ -512,11 +501,9 @@ var Component = __webpack_require__(1)(
   __webpack_require__(36),
   /* template */
   __webpack_require__(53),
-  /* styles */
-  null,
   /* scopeId */
   null,
-  /* moduleIdentifier (server only) */
+  /* cssModules */
   null
 )
 
@@ -617,4 +604,4 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
 
 /***/ })
 ],[37]);
-//# sourceMappingURL=app.580426b3acd5b0f72504.js.map
+//# sourceMappingURL=app.f09ad5dbf02e0026128a.js.map
