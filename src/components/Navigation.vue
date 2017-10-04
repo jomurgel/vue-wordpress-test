@@ -1,6 +1,6 @@
 <template>
     <div class="navigation navigation__main">
-      <router-link v-for="item of menu" :key="item" :to="{ path: '/' + item.object_slug }">
+      <router-link v-for="item of menu" :key="item.object_slug" :to="{ path: '/' + item.object_slug }">
         {{ item.title }}
       </router-link>
 
