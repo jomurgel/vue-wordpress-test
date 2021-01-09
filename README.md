@@ -1,10 +1,6 @@
 # vue-wordpress-test
 A Vue.js test using the WordPress REST API and custom endpoints to render content.
 
-> Fair warning, I've taken my time on this, but I still don't know what I'm doing. 😜
-
-Demo [here](https://vue-app.jomurgel.com/).
-
 ## Build Setup
 ``` bash
 # install dependencies
